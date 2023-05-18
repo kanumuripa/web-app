@@ -1,4 +1,4 @@
-# import time
+#  import time
 
 filepath = 'testdata.txt'
 def get_testdata():
@@ -16,5 +16,5 @@ def wrt_testdata(r_args):
     with open(filepath, 'w') as file2:
         file2.writelines(r_args)
 
-# print(get_testdata())
-# print(time.strftime("Date of Execution: %d/%M/%Y %H:%m"))
+#  print(get_testdata())
+#  print(time.strftime("Date of Execution: %d/%M/%Y %H:%m"))
